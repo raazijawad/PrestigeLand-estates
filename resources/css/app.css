@@ -313,10 +313,12 @@
 .housen-anim {
     opacity: 0;
     transform: translateY(16px);
-    transition: opacity 0.65s ease, transform 0.65s ease;
+    transition: opacity 0.65s ease-out, transform 0.65s ease-out;
+    animation-fill-mode: forwards;
 }
 
 .housen-anim-in {
     opacity: 1;
     transform: translateY(0);
+    animation-fill-mode: forwards;
 }

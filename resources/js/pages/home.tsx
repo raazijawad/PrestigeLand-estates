@@ -116,9 +116,9 @@ export default function Home() {
         </nav>
 
         {/* === BIG TITLE === */}
-        <div className="housen-anim absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 text-center pointer-events-none w-full">
+        <div className="housen-anim absolute top-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 text-center pointer-events-none w-full">
           <h1
-            className="font-['Barlow_Condensed',sans-serif] text-[clamp(7rem,16vw,15rem)] font-black text-white/92 tracking-[-0.01em] leading-[0.9] uppercase md:text-[clamp(4rem,20vw,8rem)] lg:text-[clamp(7rem,16vw,15rem)]"
+            className="font-['Barlow_Condensed',sans-serif] text-[clamp(7rem,16vw,15rem)] font-black text-white/92 tracking-[0.08em] leading-[0.95] uppercase md:text-[clamp(4rem,20vw,8rem)] lg:text-[clamp(7rem,16vw,15rem)]"
             style={{
               WebkitTextStroke: '1px rgba(255,255,255,0.2)',
               textShadow:
@@ -165,8 +165,7 @@ export default function Home() {
 
         {/* === BOTTOM TAGLINE === */}
         <div className="housen-anim absolute bottom-10 left-10 z-[15] text-white/80 text-[0.78rem] font-medium tracking-[0.15em] uppercase leading-8 md:bottom-8 md:left-6 md:text-[0.7rem] lg:bottom-10 lg:left-10 lg:text-[0.78rem]">
-          We Build<br />
-          Modern
+          We Build<br />Modern
           <br />
           Houses
           <br />
