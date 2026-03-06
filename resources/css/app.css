@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;700;800;900&family=DM+Sans:wght@300;400;500;600&display=swap');
 @import 'tailwindcss';
 
 @import 'tw-animate-css';
@@ -304,6 +305,18 @@
 }
 
 .scroll-reveal.revealed {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Housen home page animations */
+.housen-anim {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 0.65s ease, transform 0.65s ease;
+}
+
+.housen-anim-in {
     opacity: 1;
     transform: translateY(0);
 }
